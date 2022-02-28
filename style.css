@@ -172,7 +172,13 @@ section img#mountains_front {
 }
 
 .box p {
-    text-align: justify;
+    text-align: center;
+    padding: 10px;
+}
+
+.triulogo {
+    width: 70px;
+    height: 100px;
 }
 
 ul {
