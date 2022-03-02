@@ -44,7 +44,7 @@ header ul li a {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 20px 10px;
 }
 
 header ul li a:hover,
@@ -233,6 +233,7 @@ ul {
     background: #007bb5;
     color: white;
   }
+<<<<<<< HEAD
 li {
     text-decoration: none;
     padding: 6px 15px;
@@ -246,3 +247,34 @@ li {
     text-align: center;
     list-style: 10px;
 }
+=======
+
+  /* Form css */
+  hr {
+      width: 30%;
+      border: 2px solid white;
+      margin: auto;
+  }
+  table {
+      margin: auto;
+      margin-top: 50px;
+    }
+    
+.tablazat {
+    font-size:  1.5rem;
+    border: 2px solid white;
+    color: #fff;
+    width: 700px;
+    height: 600px;
+    text-align: center;
+}
+
+.th {
+    height: 100px;
+    width: 700px;
+    color: white;
+    text-align: center;
+    font: 2.5rem;
+    border: 2px solid white;
+}
+>>>>>>> 0b5b5bbe8b20a3c7575b3a0f07e574a18c673fbe
