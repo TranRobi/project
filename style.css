@@ -117,7 +117,9 @@ section img#mountains_front {
     position: relative;
     padding: 100px;
     background: #1c0522;
-
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 .tartalom h2 {
@@ -231,3 +233,16 @@ ul {
     background: #007bb5;
     color: white;
   }
+li {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+.arnyek {
+    filter: drop-shadow(7px 7px 11px violet);
+}
+#sec {
+    text-align: center;
+    list-style: 10px;
+}
