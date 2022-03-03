@@ -24,13 +24,9 @@ header {
     z-index: 10000;
 }
 
-header .logo {
-    color: #fff;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+header img {
+    width: 80px;
+    height: 120%;
 }
 
 header ul {
@@ -48,7 +44,8 @@ header ul li a {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 20px 10px;
+    filter: drop-shadow(0px 0px 15px white);
 }
 
 header ul li a:hover,
@@ -101,8 +98,9 @@ section img#mountains_front {
     right: -350px;
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5vw;
+    font-size: 3.5vw;
     z-index: 9;
+    filter: drop-shadow(7px 7px 11px lightblue);
 }
 
 #btn {
@@ -121,7 +119,8 @@ section img#mountains_front {
     position: relative;
     padding: 100px;
     background: #1c0522;
-
+    line-height: 3em;
+    font-size: 1.3em;
 }
 
 .tartalom h2 {
@@ -132,5 +131,70 @@ section img#mountains_front {
 
 .tartalom p {
     font-size: 1em;
+    color: #fff;
+}
+.tartalom h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+li {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+.arnyek {
+    filter: drop-shadow(7px 7px 11px violet);
+}
+
+  /* Form css */
+#tablazat hr {
+    width: 30%;
+    border: 2px solid white;
+    margin: auto;
+}
+table {
+    margin: auto;
+    margin-top: 50px;
+}
+    
+.tablazat {
+    font-size:  1.5rem;
+    border: 2px solid white;
+    color: #fff;
+    width: 700px;
+    height: 600px;
+    text-align: center;
+}
+
+.th {
+    height: 100px;
+    width: 700px;
+    color: white;
+    text-align: center;
+    font: 2.5rem;
+    border: 2px solid white;
+}
+
+#urlap h1 {
+    font-size: 3.5rem;
+}
+
+#urlap hr {
+    width: 30%;
+    border-bottom: 2px solid white;
+}
+
+.urtar p{
+    padding: 20px;
+}
+
+#tablazat {
+    background: #1c0522;
+}
+#tablazat h1{
+    text-align: center;
     color: #fff;
 }

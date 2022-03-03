@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formstyle.css">
     <title>Triumvirátus Extended</title>
 </head>
 <body>
@@ -24,61 +24,92 @@
         <a href="#sec" id="btn">Felfedezz</a>
         <img src="mountains_front.png" id="mountains_front">
     </section>
-    <div class="tartalom" id="sec">
-        <h2>Űrlapok</h2>
-        <p> Ûrlapokkal gyakran találkozunk az Interneten. 
-            Sok oldal ettõl nyeri az interaktivitását. 
-            Segítségükkel a felhasználók elküldhetik véleményüket egy oldalról, 
-            feliratkozhatnak egy játék résztvevõi közé, megrendelhetnek különféle tárgyakat, programokat.
-        </p>
-        <p>
-            Az ûrlapokat kitöltésük után legtöbbször elküldjük a hálózaton keresztül egy szerveren lévõ CGI programnak, 
-            amely feldolgozza a benne lévõ adatokat. Problémát jelenthet viszont az, ha az ûrlapunk hibás adatot tartalmaz. 
-            Mivel járhat ez? Elküldjük a hibás adatot a hálózaton keresztül, ezzel gyakorlatilag feleslegesen növelve a hálózati forgalmat. 
-            Ugyanakkor a szerveren lévõ program sem tud mit kezdeni az adatunkkal, jobb esetben visszaküld egy hibaüzenetet, 
-            ami tájékoztatja a felhasználót, hogy hol rontotta el az ûrlap kitöltését. Ezután kezdõdhet az egész eljárás elölrõl. 
-            Ez a folyamat sok-sok másodpercet vehet igénybe, igen lassú is lehet.
-        </p>
-        <p>
-            Általában két helyen szokás az ellenõrzést elvégezni. 
-            Minden egyes ûrlapelemnél, amint a felhasználó kitölti azt, az onChange, illetve elküldéskor az onSubmit eseménykezelõ segítségével. 
-            A következõkben több példát is látunk, amelyekben valamilyen adat ellenõrzését végezzük el.
-        </p>
-        <p>
-            A JavaScript itt is segíthet nekünk. 
-            Még a kitöltés fázisában, az ûrlap tényleges elküldése elõtt ellenõrizhetjük, hogy helyes-e a kitöltés. 
-            Ha nem, akkor nem is engedjük meg az ûrlap elküldését. Ezzel nem okozunk forgalomnövekedést a hálózaton, 
-            valamint a hibaüzenetek is rögtön megjelennek a képernyõnkön, hiszen azt nem a szerveren futó program küldi vissza, 
-            hanem a gépünkön futó JavaScript program.
-        </p>
-        <h1>Űrlap elemek</h1>
-        <hr>
-        <table>
-            <tr>
-                <td class="th">Code</td>
-                <td class="th">Példa</td>
-            </tr>
-            <tr>
-                <td class="tablazat">asd</td>
-                <td class="tablazat">asd</td>
-            </tr>
-            <tr>
-                <td class="tablazat">asd</td>
-                <td class="tablazat">asd</td>
-            </tr>
-            <tr>
-                <td class="tablazat">asd</td>
-                <td class="tablazat">asd</td>
-            </tr>
-            <tr>
-                <td class="tablazat">asd</td>
-                <td class="tablazat">asd</td>
-            </tr>
-            <tr>
-                <td class="tablazat">asd</td>
-                <td class="tablazat">asd</td>
-            </tr>
-        </table>
+    <div class="tartalom">
+            <div id="urlap">
+                <h2>Űrlapok</h2>
+                <hr>
+                <div class="urtar">
+                    <p> Ûrlapokkal gyakran találkozunk az Interneten. 
+                        Sok oldal ettõl nyeri az interaktivitását. 
+                        Segítségükkel a felhasználók elküldhetik véleményüket egy oldalról, 
+                        feliratkozhatnak egy játék résztvevõi közé, megrendelhetnek különféle tárgyakat, programokat.
+                    </p>
+                    <p>
+                        Az ûrlapokat kitöltésük után legtöbbször elküldjük a hálózaton keresztül egy szerveren lévõ CGI programnak, 
+                        amely feldolgozza a benne lévõ adatokat. Problémát jelenthet viszont az, ha az ûrlapunk hibás adatot tartalmaz. 
+                        Mivel járhat ez? Elküldjük a hibás adatot a hálózaton keresztül, ezzel gyakorlatilag feleslegesen növelve a hálózati forgalmat. 
+                        Ugyanakkor a szerveren lévõ program sem tud mit kezdeni az adatunkkal, jobb esetben visszaküld egy hibaüzenetet, 
+                        ami tájékoztatja a felhasználót, hogy hol rontotta el az ûrlap kitöltését. Ezután kezdõdhet az egész eljárás elölrõl. 
+                        Ez a folyamat sok-sok másodpercet vehet igénybe, igen lassú is lehet.
+                    </p>
+                    <p>
+                        Általában két helyen szokás az ellenõrzést elvégezni. 
+                        Minden egyes ûrlapelemnél, amint a felhasználó kitölti azt, az onChange, illetve elküldéskor az onSubmit eseménykezelõ segítségével. 
+                        A következõkben több példát is látunk, amelyekben valamilyen adat ellenõrzését végezzük el.
+                    </p>
+                    <p>
+                        A JavaScript itt is segíthet nekünk. 
+                        Még a kitöltés fázisában, az ûrlap tényleges elküldése elõtt ellenõrizhetjük, hogy helyes-e a kitöltés. 
+                        Ha nem, akkor nem is engedjük meg az ûrlap elküldését. Ezzel nem okozunk forgalomnövekedést a hálózaton, 
+                        valamint a hibaüzenetek is rögtön megjelennek a képernyõnkön, hiszen azt nem a szerveren futó program küldi vissza, 
+                        hanem a gépünkön futó JavaScript program.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="tablazat">
+            <h1>Űrlap elemek</h1>
+            <hr>
+            <table>
+                <tr>
+                    <td class="th">Code</td>
+                    <td class="th">
+                    </td>
+                    <td class="th">Magyarázat</td>
+                </tr>
+                <tr>
+                    <td class="tablazat">asd</td>
+                    <td class="tablazat">
+                        <form>
+                            <input type="text" placeholder="Kötelező" required >
+                            <input type="text" placeholder="Nem kötelező">
+                            <input type="submit">
+                        </form>
+                    </td>
+                    <td class="tablazat">asd</td>
+                </tr>
+                <tr>
+                    <td class="tablazat">asd</td>
+                    <td class="tablazat">
+                        <form >
+                            <input type="number" placeholder="Szám">
+                            <input type="submit">
+                        </form>
+                    </td>
+                    <td class="tablazat">asd</td>
+                </tr>
+                <tr>
+                    <td class="tablazat">asd</td>
+                    <td class="tablazat">
+                        <form >
+                            <input type="button" value="Gomb1">
+                            <input type="button" value="Gomb2" disabled>        
+                        </form>
+                    </td>
+                    <td class="tablazat">asd</td>
+                </tr>
+                <tr>
+                    <td class="tablazat">asd</td>
+                    <td class="tablazat">asd</td>
+                    <td class="tablazat">asd</td>
+                </tr>
+                <tr>
+                    <td class="tablazat">asd</td>
+                    <td class="tablazat">asd</td>
+                    <td class="tablazat">asd</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <script src="js.js"></script>
 </body>

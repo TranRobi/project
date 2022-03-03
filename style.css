@@ -139,72 +139,10 @@ section img#mountains_front {
     text-align: center;
     color: #fff;
 }
-/* prfile */
-.creators {
-    display: flex;
-    justify-content: center;
-}
-.box {
-    margin: 20px;
-    float: left;
-    width: 500px;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 40px;
-    text-align: center;
-    margin-top: 5%;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.box-img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-
-}
-
-.box h1 {
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
-}
-
-.box h5 {
-    font-size: 25px;
-    letter-spacing: 3px;
-    font-weight: 100;
-}
-
-.box p {
-    text-align: center;
-    padding: 10px;
-}
 
 .triulogo {
     width: 70px;
     height: 100px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-
-}
-.box li {
-    display: inline-block;
-    margin: 6px;
-    list-style: none;
-}
-
-.box li a {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    transition: all ease-in-out 250ms;
-}
-
-.box li a:hover {
-    color: #b9b9b9;
 }
 
 /* social media */
@@ -244,36 +182,5 @@ li {
 .arnyek {
     filter: drop-shadow(7px 7px 11px violet);
 }
-#sec {
-    text-align: center;
-    list-style: 10px;
-}
 
-  /* Form css */
-  hr {
-      width: 30%;
-      border: 2px solid white;
-      margin: auto;
-  }
-  table {
-      margin: auto;
-      margin-top: 50px;
-    }
-    
-.tablazat {
-    font-size:  1.5rem;
-    border: 2px solid white;
-    color: #fff;
-    width: 700px;
-    height: 600px;
-    text-align: center;
-}
 
-.th {
-    height: 100px;
-    width: 700px;
-    color: white;
-    text-align: center;
-    font: 2.5rem;
-    border: 2px solid white;
-}
