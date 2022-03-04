@@ -156,26 +156,27 @@ li {
     margin: auto;
 }
 table {
+    padding: 40px;
     margin: auto;
     margin-top: 50px;
 }
     
 .tablazat {
     font-size:  1.5rem;
-    border: 2px solid white;
     color: #fff;
     width: 700px;
-    height: 600px;
+    height: 300px;
     text-align: center;
+    border-bottom: 2px solid white;
 }
 
 .th {
     height: 100px;
     width: 700px;
-    color: white;
     text-align: center;
-    font: 2.5rem;
-    border: 2px solid white;
+    font-size: 2.5rem;
+    color: #fff;
+    border-bottom: 2px solid white;
 }
 
 #urlap h1 {
@@ -183,7 +184,7 @@ table {
 }
 
 #urlap hr {
-    width: 30%;
+    width: 15%;
     border-bottom: 2px solid white;
 }
 
@@ -197,4 +198,20 @@ table {
 #tablazat h1{
     text-align: center;
     color: #fff;
+}
+
+#tablazat p {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+}
+
+footer p {
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
 }

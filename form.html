@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <a href="#"><img src="logo.png""></a>
+        <a href="#"><img src="logo.png"></a>
         <ul>
             <li><a href="index.html">JavaScript</a></li>
-            <li><a href="form.html" class="active"">Forms</a></li>
+            <li><a href="form.html" class="active">Forms</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </header>
@@ -21,10 +21,10 @@
         <img src="moon.png" id="moon">
         <img src="mountains_behind.png" id="mountains_behind">
         <h2 id="text">Triumvirátus Extended</h2>
-        <a href="#sec" id="btn">Felfedezz</a>
+        <a href="#sec" id="btn">Felfedez</a>
         <img src="mountains_front.png" id="mountains_front">
     </section>
-    <div class="tartalom">
+    <div class="tartalom" id="sec">
             <div id="urlap">
                 <h2>Űrlapok</h2>
                 <hr>
@@ -63,12 +63,13 @@
             <table>
                 <tr>
                     <td class="th">Code</td>
-                    <td class="th">
-                    </td>
+                    <td class="th">Példa</td>
                     <td class="th">Magyarázat</td>
                 </tr>
                 <tr>
-                    <td class="tablazat">asd</td>
+                    <td class="tablazat">
+                        <img src="code1.PNG">
+                    </td>
                     <td class="tablazat">
                         <form>
                             <input type="text" placeholder="Kötelező" required >
@@ -76,17 +77,19 @@
                             <input type="submit">
                         </form>
                     </td>
-                    <td class="tablazat">asd</td>
+                    <td class="tablazat"><p>A required attribútummal ellátott ürlapokat muszáj kitölteni.</p></td>
                 </tr>
                 <tr>
-                    <td class="tablazat">asd</td>
+                    <td class="tablazat">
+                        <img src="code2.PNG">
+                    </td>
                     <td class="tablazat">
                         <form >
                             <input type="number" placeholder="Szám">
                             <input type="submit">
                         </form>
                     </td>
-                    <td class="tablazat">asd</td>
+                    <td class="tablazat"><p>A placeholder olyan attribútum amellyel, az ürlapmezőbe tudjuk kiírni milyen adatott várunk.</p></td>
                 </tr>
                 <tr>
                     <td class="tablazat">asd</td>
@@ -100,16 +103,58 @@
                 </tr>
                 <tr>
                     <td class="tablazat">asd</td>
-                    <td class="tablazat">asd</td>
+                    <td class="tablazat">
+                        <form>
+                            <input type="number" max="10">
+                            <input type="submit">
+                        </form>
+                    </td>
                     <td class="tablazat">asd</td>
                 </tr>
                 <tr>
                     <td class="tablazat">asd</td>
+                    <td class="tablazat">
+                        <form>
+                            <input type="number" min="10">
+                            <input type="submit">
+                        </form></td>
                     <td class="tablazat">asd</td>
-                    <td class="tablazat">asd</td>
+                </tr>
+                <tr>
+                    <td class="tablazat"></td>
+                    <td class="tablazat">
+                        <form>
+                            <input type="text" maxlength="5">
+                            <input type="submit">
+                        </form>
+                    </td>
+                    <td class="tablazat"></td>
+                </tr>
+                <tr>
+                    <td class="tablazat"></td>
+                    <td class="tablazat">
+                        <form>
+                            <input type="text" minlength="5">
+                            <input type="submit">
+                        </form>
+                    </td>
+                    <td class="tablazat"></td>
+                </tr>
+                <tr>
+                    <td class="tablazat"></td>
+                    <td class="tablazat">
+                        <form>
+                            <input type="text" pattern="[A-Z]{1}">
+                            <input type="submit">
+                        </form>
+                    </td>
+                    <td class="tablazat"></td>
                 </tr>
             </table>
         </div>
+        <footer>
+            <p>Triumvirátus Extended</p>
+        </footer>
     </div>
     <script src="js.js"></script>
 </body>
