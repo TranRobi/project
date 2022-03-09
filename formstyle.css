@@ -164,10 +164,18 @@ table {
 .tablazat {
     font-size:  1.5rem;
     color: #fff;
+    text-align: center;
     width: 700px;
     height: 300px;
-    text-align: center;
     border-bottom: 2px solid white;
+}
+
+.tablazat > pre {
+    font-size: initial;
+}
+
+.tablazat {
+    text-align: initial;
 }
 
 .th {

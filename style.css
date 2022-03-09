@@ -133,6 +133,9 @@ section img#mountains_front {
 .tartalom p {
     font-size: 1em;
     color: #fff;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .tartalom h1 {
     font-size: 2.5rem;

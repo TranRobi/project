@@ -1,14 +1,14 @@
-let moon = document.getElementById('moon');
-let stars = document.getElementById('stars');
-let btn = document.getElementById('btn');
-let text = document.getElementById('text');
-let mountains_front = document.getElementById('mountains_front');
-let mountains_behind = document.getElementById('mountains_behind');
-let header = document.querySelector('header');
+const moon = document.getElementById('moon');
+const stars = document.getElementById('stars');
+const btn = document.getElementById('btn');
+const text = document.getElementById('text');
+const mountains_front = document.getElementById('mountains_front');
+const mountains_behind = document.getElementById('mountains_behind');
+const header = document.querySelector('header');
 
 
 window.addEventListener('scroll', function(){
-    let value = window.scrollY;
+    const value = window.scrollY;
     stars.style.left = value * 0.25 + 'px'; 
     moon.style.top = value * 1.05 + 'px'; 
     mountains_behind.style.top = value * 0.5 + 'px';
