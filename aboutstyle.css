@@ -244,3 +244,15 @@ li {
 .arnyek {
     filter: drop-shadow(7px 7px 11px violet);
 }
+
+footer {
+    height: 100px;
+    background-color: black;
+}
+
+footer p {
+    padding-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
